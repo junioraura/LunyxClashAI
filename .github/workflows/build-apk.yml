@@ -21,7 +21,7 @@ jobs:
         with:
           gradle-version: '8.9'
 
-      - uses: android-actions/setup-android@v3
+      - uses: - uses: android-actions/setup-android@v4
 
       - name: Extract project
         run: unzip -q LunyxClashAI-proyecto.zip -d .
